@@ -5,5 +5,5 @@ services:
     image: sreenathsri/flask-app:latest
     container_name: flask-app
     ports:
-      - "80:2525"
+      - "2525:2525"
     restart: always
